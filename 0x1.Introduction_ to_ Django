@@ -1,0 +1,23 @@
+python --version
+pip install django
+django-admin startproject LibraryProject
+cd LibraryProject
+touch README.md
+python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 10, 2024 - 15:00:00
+Django version 3.2.5, using settings 'LibraryProject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+LibraryProject/
+    manage.py
+    LibraryProject/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+python manage.py startapp app_name
